@@ -89,6 +89,10 @@
         font-size: 0.95rem;
       }
 
+      .top-nav a.external-page {
+        font-weight: 700;
+      }
+
       .hero {
         max-width: 1120px;
         margin: 0 auto;
@@ -252,6 +256,28 @@
         padding: 0 20px;
       }
 
+      .legal-links {
+        max-width: 1120px;
+        margin: 18px auto 0;
+        padding: 0 20px;
+      }
+
+      .legal-links-box {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 14px 16px;
+        background: rgba(255, 255, 255, 0.65);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+      }
+
+      .legal-links-box a {
+        color: var(--ink-strong);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
       .trust-box {
         border: 1px dashed rgba(34, 34, 42, 0.25);
         border-radius: 16px;
@@ -324,6 +350,8 @@
           <a href="#ssd">Top SSD</a>
           <a href="#tecnicos-ti">Tecnicos TI</a>
           <a href="#transparencia">Transparencia</a>
+          <a class="external-page" href="sobre.html">Sobre</a>
+          <a class="external-page" href="contato.html">Contato</a>
         </nav>
       </div>
     </header>
@@ -580,6 +608,15 @@
       <div class="trust-box">
         <strong>Transparencia:</strong> alguns links podem ser de afiliado. Isso
         nao altera o preco para voce e ajuda a manter este projeto no ar.
+      </div>
+    </section>
+
+    <section class="legal-links" aria-label="Links institucionais">
+      <div class="legal-links-box">
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="politica-de-privacidade.html">Politica de Privacidade</a>
+        <a href="termos-de-uso.html">Termos de Uso</a>
       </div>
     </section>
 
